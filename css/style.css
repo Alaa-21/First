@@ -1,0 +1,702 @@
+/*start main rules */
+body {
+  background-color: #222222;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.clearfix {
+  clear: both;
+}
+/* end main rules */
+
+/* Start Header */
+.header .slider {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('../images/slider.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 1900;
+  padding: 30px;
+  overflow: hidden;
+}
+.header .slider .navbar a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header .slider .navbar ul {
+  padding-left: 330px;
+}
+.header .slider .navbar ul li {
+  text-transform: uppercase;
+  margin-right: 30px;
+  letter-spacing: 3px;
+  color: #000;
+}
+.header .slider .intro {
+  height: 1200px;
+  text-align: center;
+  color: #fff;
+  padding-top: 800px;
+}
+.header .slider .intro h1 {
+  font-weight: lighter;
+  font-size: 45px;
+}
+.header .slider .intro strong {
+  font-size: 50px;
+}
+.header .slider .intro p {
+  letter-spacing: 4px;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #086972;
+}
+/* End Header */
+/* Start Features */
+.features {
+  overflow: hidden;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.features h1 {
+  color: #fff;
+}
+.features ul {
+  padding: 25px 0;
+}
+
+.features ul li {
+  margin-right: 30px;
+  letter-spacing: 3px;
+  color: #777;
+  transition: color 0.3s ease-in-out;
+}
+.features ul li:hover {
+  color: #b2c251;
+}
+.features .my-work {
+  overflow: hidden;
+}
+.features .my-work > div {
+  width: 33.3333%;
+  float: left;
+  margin-bottom: 10px;
+}
+.features .my-work > div img {
+  width: 95%;
+  margin: 10px;
+  padding: 10px;
+}
+.features .my-work > div h4 {
+  color: #fff;
+  line-height: 1.5;
+}
+.features .my-work > div span {
+  font-size: 11px;
+  color: #ccccc0;
+}
+/* End Features */
+
+/* Start Resume */
+.resume {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+.resume h1 {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+}
+.resume h2 {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.resume strong {
+  font-size: 40px;
+}
+
+/* Start Edu */
+.resume .education {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  direction: ltr;
+}
+.resume .education h2 {
+  color: #fff;
+}
+.resume .education .edu {
+  background-color: #333333;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 35px;
+  padding-right: 15px;
+  border: 1px solid#000;
+  border-radius: 15px;
+}
+.resume .education .edu span,
+h3,
+p {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.resume .education .edu span {
+  color: #fff;
+}
+.resume .education .edu i {
+  margin-right: 5px;
+}
+.resume .education .edu h3 {
+  color: #b2c251;
+}
+.resume .education .edu p {
+  line-height: 1.7;
+  color: #777;
+}
+.resume .education .edu span:last-of-type {
+  color: #777;
+}
+/* End Edu */
+
+/* Start EXP */
+.resume .experience {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  direction: ltr;
+}
+.resume .experience h2 {
+  color: #fff;
+}
+.resume .experience .exp {
+  background-color: #333333;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 35px;
+  padding-left: 15px;
+  border: 1px solid#000;
+  border-radius: 15px;
+}
+.resume .experience .exp span,
+h3,
+p {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.resume .experience .exp span {
+  color: #fff;
+}
+.resume .experience .exp i {
+  margin-right: 5px;
+}
+.resume .experience .exp h3 {
+  color: #b2c251;
+}
+.resume .experience .exp p {
+  line-height: 1.7;
+  color: #777;
+}
+.resume .experience .exp span:last-of-type {
+  color: #777;
+}
+/* End EXP */
+/* End Resume */
+
+/* Start About Me */
+.about-me {
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.about-me .image {
+  float: left;
+  width: 40%;
+  padding-right: ;
+}
+.about-me .image img {
+  float: left;
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.about-me .text {
+  float: left;
+  width: 33%;
+  text-align: left;
+  padding-left: 130px;
+}
+.about-me .text h2 {
+  margin: 20px 0 20px 40px;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.about-me .text strong {
+  font-size: 40px;
+}
+.about-me .text > p {
+  color: #555;
+  line-height: 1.7;
+  padding: 5px;
+}
+.about-me .text .last {
+  font-size: 13px;
+}
+.about-me .text .cv {
+  background-color: #5a6268;
+}
+/* End About Me */
+
+/* start testemonials */
+
+.testemonials {
+  overflow: hidden;
+  padding-top: 50px;
+}
+.testemonials h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.testemonials strong {
+  font-size: 40px;
+}
+.testemonials .opinion {
+  width: 50%;
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.testemonials .opinion .image {
+  width: 10%;
+  padding-top: 20px;
+  padding-left: 250px;
+}
+.testemonials .opinion .image img {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+.testemonials .opinion .text {
+  color: #555;
+  padding: 10px;
+  margin: 10px;
+  margin-right: 35px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+.testemonials .opinion .text blockquote {
+  line-height: 1.5;
+}
+.testemonials .opinion .text cite {
+  padding-left: 50px;
+}
+.testemonials .opinion .text a {
+  color: #bac964;
+}
+/* end testemonials */
+
+/* Start services */
+.services {
+  padding-top: 100px;
+  overflow: hidden;
+}
+.services h2 {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.services strong {
+  font-size: 40px;
+}
+.services .holder {
+  overflow: hidden;
+  float: left;
+  text-align: center;
+}
+/* Start Design */
+.services .holder .design {
+  width: 30.3333%;
+  border: 1px solid#000;
+  background: #333333;
+  height: 400px;
+  padding-top: 30px;
+}
+.services .holder .design i {
+  color: #bac964;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.services .holder .design h3 {
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.services .holder .design p {
+  line-height: 1.7;
+  color: #777;
+}
+.services .holder .design a {
+  color: #bac964;
+  word-spacing: 2px;
+  text-decoration: none;
+}
+/* End Design */
+/* start Seo */
+.services .holder .seo {
+  width: 30.3333%;
+  border: 1px solid#000;
+  background: #333333;
+  margin-left: 25px;
+  height: 400px;
+  padding-top: 30px;
+  margin-top: 10px;
+}
+.services .holder .seo i {
+  color: #bac964;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.services .holder .seo h3 {
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.services .holder .seo p {
+  line-height: 1.7;
+  color: #777;
+}
+.services .holder .seo a {
+  color: #bac964;
+  word-spacing: 2px;
+  text-decoration: none;
+}
+/* End Seo */
+/* Start Editing */
+.services .holder .editing {
+  width: 30.3333%;
+  border: 1px solid#000;
+  background: #333333;
+  margin-left: 25px;
+  height: 400px;
+  padding-top: 30px;
+}
+.services .holder .editing i {
+  color: #bac964;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.services .holder .editing h3 {
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.services .holder .editing p {
+  line-height: 1.7;
+  color: #777;
+}
+.services .holder .editing a {
+  color: #bac964;
+  word-spacing: 2px;
+  text-decoration: none;
+}
+/* End Editing */
+/* end services */
+/* Start Blog */
+.blog {
+  overflow: hidden;
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+.blog h2 {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+/* start 1 */
+.blog .one {
+  background-color: #333333;
+  height: 600px;
+  overflow: hidden;
+  width: 30%;
+  border: 2px solid#000;
+}
+.blog .one img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.blog .one a {
+  text-decoration: none;
+}
+.blog .one a:hover {
+  color: #bac964;
+}
+.blog .one h3 {
+  font-size: 20px;
+  padding-left: 10px;
+  color: #fff;
+}
+.blog .one h3:hover {
+  color: #bac964;
+}
+.blog .one p {
+  color: #666;
+  line-height: 1.7;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.blog .one .social span,
+a {
+  padding-left: 15px;
+  color: #666;
+}
+
+/* End 1*/
+/* Stat2 */
+.blog .two {
+  background-color: #333333;
+  height: 600px;
+  overflow: hidden;
+  width: 30%;
+  border: 2px solid#000;
+  margin-left: 10px;
+  margin-left: 30px;
+}
+.blog .two img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.blog .two a {
+  text-decoration: none;
+}
+.blog .two a:hover {
+  color: #bac964;
+}
+.blog .two h3 {
+  font-size: 20px;
+  padding-left: 10px;
+  color: #fff;
+}
+.blog .two h3:hover {
+  color: #bac964;
+}
+.blog .two p {
+  color: #666;
+  line-height: 1.7;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.blog .two .social span,
+a {
+  padding-left: 15px;
+  color: #666;
+}
+/* End 2 */
+/* Start 3 */
+.blog .three {
+  background-color: #333333;
+  height: 600px;
+  overflow: hidden;
+  width: 30%;
+  border: 2px solid#000;
+  margin-left: 30px;
+}
+.blog .three img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+.blog .three a {
+  text-decoration: none;
+}
+.blog .three a:hover {
+  color: #bac964;
+}
+.blog .three h3 {
+  font-size: 20px;
+  padding-left: 10px;
+  color: #fff;
+}
+.blog .three h3:hover {
+  color: #bac964;
+}
+.blog .three p {
+  color: #666;
+  line-height: 1.7;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+.blog .three .social span,
+a {
+  padding-left: 15px;
+  color: #666;
+}
+/* End 3 */
+/* End Blog */
+/* Start Connection */
+.contact {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  overflow: hidden;
+}
+.contact h2 {
+  font-weight: lighter;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 50px;
+  text-align: center;
+}
+/* Start Form */
+.contact .form {
+  width: 50%;
+  overflow: hidden;
+}
+.contact .form h3 {
+  color: #fff;
+}
+.contact .form input,
+textarea {
+  background-color: #333333;
+  border: 1px solid#ddd;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.contact .form input[type='text'] {
+  width: 80%;
+  height: 40px;
+  color: #fff;
+}
+.contact .form textarea {
+  height: 300px;
+  width: 400px;
+}
+.contact .form input[type='submit'] {
+  cursor: pointer;
+  background-color: #b2c251;
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 10px;
+  border: 1px solid#ddd;
+  border-radius: 25px;
+}
+
+/* End Form */
+/* Start Detail */
+.contact .detail {
+  width: 50%;
+  overflow: hidden;
+}
+.contact .detail h3 {
+  color: #fff;
+}
+.contact .detail li {
+  color: #666;
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.contact .detail span {
+  display: block;
+  color: #2c3e50;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+/* End Detail */
+/* End connection */
+/* Start Footer */
+.footer {
+  padding-bottom: 150px;
+  text-align: center;
+}
+.footer p {
+  color: #666;
+  font-size: 30px;
+}
+.footer p a {
+  color: #b2c251;
+}
+.footer span {
+  display: inline-block;
+  padding-top: 10px;
+  color: grey;
+  font-size: 100px;
+  margin-left: 30px;
+}
+.footer a:hover {
+  color: #080;
+}
+.footer .face {
+  color: #0071f2;
+}
+.footer .twitter {
+  color: #00acee;
+}
+.footer .insta {
+  color: ;
+}
+/* End Footer */
+
+/* Start Framework */
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+button,
+strong,
+input {
+  font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+}
+button {
+  background-color: #b2c251;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.span {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.fl-left {
+  float: left;
+}
+input {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
